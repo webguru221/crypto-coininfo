@@ -1,0 +1,55 @@
+{
+  "name": "crypto-coininfo",
+  "version": "1.0.0",
+  "description": "JavaScript component for crypto currency specific information.",
+  "main": "./lib/coininfo.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "lint": "standard",
+    "test": "npm run lint && npm run unit",
+    "unit": "tape test/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webguru221/crypto-coininfo.git"
+  },
+  "keywords": [
+    "cryptography",
+    "crypto",
+    "coin",
+    "bitcoin",
+    "bitcoin gold",
+    "litecoin",
+    "elliptic",
+    "curve",
+    "dogecoin",
+    "blackcoin",
+    "namecoin",
+    "dash",
+    "monacoin",
+    "zcash",
+    "vertcoin",
+    "qtum",
+    "zozocoin"
+  ],
+  "author": "Varun Handa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/webguru221/crypto-coininfo/issues"
+  },
+  "homepage": "https://github.com/webguru221/crypto-coininfo#readme",
+  "devDependencies": {
+    "standard": "*",
+    "tape": "^4.8.0"
+  },
+  "files": [
+    "lib"
+  ],
+  "bundleDependencies": false,
+  "dependencies": {
+    "safe-buffer": "^5.1.1"
+  },
+  "deprecated": false
+}
