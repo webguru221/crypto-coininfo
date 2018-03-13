@@ -1,6 +1,6 @@
 {
   "name": "crypto-coininfo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JavaScript component for crypto currency specific information.",
   "main": "./lib/coininfo.js",
   "directories": {
